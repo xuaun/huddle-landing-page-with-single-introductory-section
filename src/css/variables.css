@@ -1,0 +1,31 @@
+:root {
+  /* DESIGN SYSTEM */
+  /* COLORS DS */
+  /* PRIMARY */
+  --violet: hsl(257, 40%, 49%);
+  --magenta-soft: hsl(300, 69%, 71%);
+  --white: hsl(0, 0%, 100%);
+
+  /* TYPOGRAPHY DS */
+  /* TEXT PRESET 1 */
+  --text-1-family: "Poppins", sans-serif;
+  --text-1-size: clamp(2.4rem, 1.837rem + 1.502vw, 4rem);
+  --text-1-weight: 600;
+  --text-1-height: clamp(3.6rem, 2.755rem + 2.254vw, 6rem);
+  --text-1-spacing: 0rem;
+  /* TEXT PRESET 2 */
+  --text-2-family: "Open Sans", sans-serif;
+  --text-2-size: clamp(1.6rem, 1.53rem + 0.188vw, 1.8rem);
+  --text-2-weight: 400;
+  --text-2-height: clamp(2.4rem, 2.294rem + 0.282vw, 2.7rem);
+  --text-2-spacing: 0rem;
+
+  /* PAGE */
+  /* COLORS */
+  --background-page-color: var(--violet);
+  --background-btn-color: var(--white);
+  --background-btn-color-hover: var(--magenta-soft);
+  --text: var(--white);
+  --text-btn: var(--violet);
+  --text-btn-hover: var(--white);
+}

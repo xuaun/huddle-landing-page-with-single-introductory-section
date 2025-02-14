@@ -1,0 +1,126 @@
+/* GLOBAL */
+
+html {
+  font-size: 62.5%;
+}
+
+.page {
+  background: url(../images/bg-desktop.svg) center center no-repeat,
+    var(--background-page-color);
+  background-size: cover;
+}
+
+.main {
+  display: flex;
+  gap: 6rem;
+  justify-content: center;
+}
+
+/* HEADER */
+
+.header {
+  margin: 6.4rem 8rem 10.4rem;
+}
+
+/* MAIN */
+
+.main__img {
+  max-width: clamp(28rem, -1.257rem + 91.429vw, 69.6rem);
+  margin: 0rem 0rem 2.7rem 8rem;
+}
+
+/* CONTENT */
+
+.content {
+  max-width: 52rem;
+  margin-top: 3.2rem;
+}
+
+.content__header {
+  color: var(--text);
+  font-family: var(--text-1-family);
+  font-size: var(--text-1-size);
+  font-weight: var(--text-1-weight);
+  line-height: var(--text-1-height);
+  letter-spacing: var(--text-1-spacing);
+  margin-bottom: 2.4rem;
+}
+
+.content__body {
+  color: var(--text);
+  font-family: var(--text-2-family);
+  font-size: var(--text-2-size);
+  font-weight: var(--text-2-weight);
+  line-height: var(--text-2-height);
+  letter-spacing: var(--text-2-spacing);
+  margin-bottom: 2.4rem;
+}
+
+.content__btn {
+  color: var(--text-btn);
+  font-family: var(--text-2-family);
+  font-size: var(--text-2-size);
+  font-weight: var(--text-2-weight);
+  line-height: var(--text-2-height);
+  letter-spacing: var(--text-2-spacing);
+  padding: 1.4rem 6.4rem;
+  background-color: var(--background-btn-color);
+  border-radius: 2.8rem;
+  box-shadow: 0.2rem 0.4rem 0.9rem 0.3rem rgba(0, 0, 0, 26%);
+}
+
+/* FOOTER */
+
+.footer__social {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.6rem;
+  margin: 0rem 8rem 4rem;
+}
+
+.footer__icon {
+  color: var(--background-btn-color);
+  font-size: 2rem;
+  border-radius: 50%;
+  padding: 0.5rem 1rem;
+  border: 0.1rem solid var(--background-btn-color);
+  width: 4rem;
+  height: 4rem;
+}
+
+/* HOVER */
+
+.content__btn:hover {
+  color: var(--text-btn-hover);
+  background-color: var(--background-btn-color-hover);
+}
+
+.footer__icon:hover {
+  color: var(--background-btn-color-hover);
+  border: 0.1rem solid var(--background-btn-color-hover);
+}
+
+/* ATTRIBUTION */
+
+.attribution {
+  font-size: 1.1rem;
+  color: var(--violet);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: hsl(0, 0%, 100%, 80%);
+  padding: 1rem;
+  border-radius: 1rem;
+  z-index: 2;
+}
+
+.attribution__link {
+  color: var(--magenta-soft);
+}
+
+.attribution__link:hover,
+.attribution__link:focus {
+  color: var(--violet);
+}

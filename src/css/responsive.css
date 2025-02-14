@@ -1,0 +1,56 @@
+@media (max-width: 1220px) {
+  /* HEADER */
+
+  .header {
+    margin: 3.8rem 4rem 7rem;
+  }
+
+  /* MAIN */
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main__img {
+    margin: 0rem 4rem;
+  }
+
+  /* CONTENT */
+
+  .content {
+    margin: 0rem 3.5rem 6.4rem;
+    text-align: center;
+  }
+
+  .content__header {
+    margin-bottom: 1.6rem;
+  }
+
+  .content__btn {
+    padding: 1.1rem 7.5rem;
+    box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 27%);
+  }
+
+  /* FOOTER */
+
+  .footer__social {
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 8rem;
+  }
+
+  .footer__icon {
+    font-size: 1.3rem;
+    padding: 0.5rem 0.8rem;
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .page {
+    background: url(../images/bg-mobile.svg) top center no-repeat,
+      var(--background-page-color);
+  }
+}
