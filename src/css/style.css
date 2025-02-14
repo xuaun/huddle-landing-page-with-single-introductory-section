@@ -19,14 +19,18 @@ html {
 /* HEADER */
 
 .header {
-  margin: 6.4rem 8rem 10.4rem;
+  margin: 5rem 8rem 10rem;
+}
+
+.header__logo {
+  max-width: 20rem;
 }
 
 /* MAIN */
 
 .main__img {
   max-width: clamp(28rem, -1.257rem + 91.429vw, 69.6rem);
-  margin: 0rem 0rem 2.7rem 8rem;
+  margin: 0rem 0rem 1.4rem;
 }
 
 /* CONTENT */
